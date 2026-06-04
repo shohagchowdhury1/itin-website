@@ -1,0 +1,23 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /_next/
+Disallow: /components/
+Disallow: /lib/
+Disallow: /types/
+Disallow: /data/
+Disallow: /hooks/
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: OAI-SearchBot
+Allow: /
+
+User-Agent: ClaudeBot
+Allow: /
+
+Host: https://itin.so
+Sitemap: https://itin.so/sitemap.xml
